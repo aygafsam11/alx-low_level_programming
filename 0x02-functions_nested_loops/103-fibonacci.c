@@ -26,7 +26,7 @@ int main(void)
 			total_sum += sum;
 
 		fin1 = fin2;
-		fibn = sum;
+		fin2 = sum;
 	}
 	printf("%.0f\n", total_sum);
 
