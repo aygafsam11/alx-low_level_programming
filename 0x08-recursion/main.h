@@ -7,8 +7,6 @@ int square(int n, int val);
 int check_prime(int n, int resp);
 int last_index(char *s);
 int check(char *s, int start, int end, int pair);
-int checker(char *s1, char *s2, int a, int b, int wildUsed);
-int checkLast(char *s, int i);
 void _print_rev_recursion(char *s);
 int _strlen_recursion(char *s);
 int factorial(int n);
