@@ -1,29 +1,27 @@
-#define "main.h"
+#include "main.h"
 #include <stdlib.h>
-
 /**
- * *create_array - multiply the args
- * @size: size of memory to be allocated
- * @c: character to be placed in memory
+ * create_array - creates an array of chars.
+ * @size: size of the array.
+ * @c: storaged char
  *
- * Return: 0 for successful exit
+ * Return: pointer of an array of chars
  */
-
 char *create_array(unsigned int size, char c)
 {
-
-	char *arrayOfChar;
+	char *cr;
 	unsigned int i;
 
-	arrayOfChar = malloc(size);
+	if (size == 0)
+		return (NULL);
 
-	if (size == 0 || arrayOfChar == 0)
-		return (0);
+	cr = malloc(sizeof(c) * size);
+
+	if (cr == NULL)
+		return (NULL);
 
 	for (i = 0; i < size; i++)
-	{
-		arrayOfChar[i] = c;
-	}
+		cr[i] = c;
 
-	return (arrayOfChar);
+	return (cr);
 }
