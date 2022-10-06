@@ -1,4 +1,3 @@
-#define "main.h"
 #include <stdlib.h>
 
 /**
