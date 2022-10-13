@@ -1,4 +1,6 @@
 #include "3-calc.h"
+#include <stdio>
+#include <stdlib>
 
 /**
  * op_add - adds two numbers.
