@@ -1,5 +1,4 @@
 #include "3-calc.h"
-#include <stdlib>
 
 /**
  * op_add - adds two numbers.
