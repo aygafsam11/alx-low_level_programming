@@ -2,6 +2,22 @@
 - Data  
 - Algorithms  
 - Data Structure  
+# Data Structure used for the project  
+```
+/**
+ * struct listint_s - singly linked list
+ * @n: integer
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
+ * 
+ */
+typedef struct listint_s
+{
+    int n;
+    struct listint_s *next;
+} listint_t;  
+```  
 # Functions Prototypes used in this project  
 - size_t print_listint(const listint_t *h);
 
