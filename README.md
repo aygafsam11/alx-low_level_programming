@@ -18,6 +18,7 @@
 - 0x0F. C - Function pointers
 - 0x10. C - Variadic functions
 - 0x11. C - printf  
+- 0x14. C - Bit manipulation  
 ## Data structures and Algorithms
 - 0x12. C - Singly linked lists
 - 0x13. C - More singly linked lists
